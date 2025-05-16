@@ -1,0 +1,27 @@
+.description-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  padding: 25px 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  img{
+    height: 300px ;
+    width: auto;
+  }
+}
+
+@media (min-width: 768px){
+    .description-me {
+        padding: 0 70px;
+        flex-direction: row;
+        height: 520px;
+        img{
+        width: 600px;
+        height: auto;
+        }
+    }
+    }

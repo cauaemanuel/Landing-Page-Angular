@@ -6,6 +6,7 @@
     border-radius: 30px;
     cursor: pointer;
     padding: 16px 20px;
+    margin: 40px 0;
 
 
     &:disabled{
@@ -21,8 +22,9 @@
 
     }
      &.secondary {
-        background: white;
+        background: black;
         color: $primary-text;
+        color: white;
 
         font-size: 12px;
         font-weight: bold;
