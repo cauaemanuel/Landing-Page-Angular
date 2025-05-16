@@ -1,0 +1,63 @@
+@import "../../../color-variables";
+
+
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    background-color: $bg-secondary;
+    color: white;
+
+
+    h3{
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 14px;
+        font-weight:400;
+    }
+
+    .text{
+        flex: 1;
+    }
+
+    form{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+
+        input{
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 90%;
+            height: 60px;
+            color: white;
+
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (min-width: 1080px) {
+    .form-section{
+        flex-direction: row;
+        gap: 115px;
+        padding: 40px 120px;
+
+        p{
+        font-size: 16px;
+        font-weight:400;
+        } 
+    }
+}
